@@ -1,0 +1,31 @@
+{
+  "name": "time2hack",
+  "version": "1.0.0",
+  "description": "A simple app to share food with those who need it",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kindacoder/GLBajaj-hackathon.git"
+  },
+  "keywords": [
+    "Food",
+    "share",
+    "basic",
+    "needs"
+  ],
+  "author": "Ashutosh Dwivedi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kindacoder/GLBajaj-hackathon/issues"
+  },
+  "homepage": "https://github.com/kindacoder/GLBajaj-hackathon#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.10",
+    "mongoose-double": "0.0.1"
+  }
+}
