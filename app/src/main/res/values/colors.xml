@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#21618c</color>
+    <color name="colorPrimaryDark">#212f3d</color>
+    <color name="colorAccent">#3a7e1e</color>
+
+    <color name="homeBackGround">#e74c3c</color>
+
+    <color name="reportPrimary">#008080</color>
+    <color name="reportPrimaryDark">#17202a</color>
+    <color name="reportAccent">#FF00FF</color>
+
+
 </resources>

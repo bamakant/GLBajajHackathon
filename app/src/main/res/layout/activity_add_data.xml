@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kiu.glbajajhackathon.AddDataActivity">
+
+    <LinearLayout
+        android:id="@+id/radio_button_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/reportPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/foodtextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Food"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/clothtextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Cloth"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TableRow
+            android:id="@+id/uDyhdv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:layout_weight="0.50"
+                android:paddingLeft="0dp"
+                android:paddingRight="10dp"
+                android:text="Item Name"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_text_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:background="@drawable/edit_text_style"
+                android:padding="8dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/uDyhdv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:layout_weight="0.50"
+                android:text="Item Quantity"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_text_item_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:inputType="number"
+                android:background="@drawable/edit_text_style"
+                android:padding="8dp" />
+
+        </TableRow>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/reportPrimary"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Add"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="true"
+            android:background="@color/reportPrimary"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Cancel"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
